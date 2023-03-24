@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2? family= Poppins:wght@300;400;500;600;700 & display=swap');
+@import url('https://fonts.googleapis.com/css2?family=WindSong:wght@400;500&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+html::-webkit-scrollbar{
+    width: 1rem;
+}
+html::-webkit-scrollbar-track{
+    background-color:#63490d;
+}
+html::-webkit-scrollbar-thumb{
+    background-color:#EDA603;
+    border-radius: 1rem;
+}
+
+.background{
+    background-image: url(img/backgroundcampo.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 110vw;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    max-width: 100%;
+    padding: 1.5rem;
+    align-items: center;
+}
+
+.logo span {
+    font-family: 'WindSong', cursive;
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: #000;
+    width: 75px;
+    height: auto;
+    margin-left: 5rem;
+}
+
+ul {
+    display: flex;
+    gap: 1rem;
+}
+
+ul li a {
+    color: #fff;
+    transition: 0.3s;
+}
+ul li a:hover {
+    text-transform: capitalize;
+    color:#EDA603 ;
+    border-bottom: 2px solid #EDA603;
+    cursor: pointer;
+}
+
+/* hr {
+    border-bottom: solid 0.1px;
+    color: rgb(78, 75, 75);
+    margin-top: 15px;
+} */
+
+.title {
+    margin-left: 3rem;
+    margin-top: 28rem;
+}
+.title h1{
+    color: #000;
+    font-size: 3.8rem;
+    
+}
+
+.title p {
+    color: #000;
+    font-weight: bold;
+    font-size: 1.2rem;
+    line-height: 2rem;
+}
